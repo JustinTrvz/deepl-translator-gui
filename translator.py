@@ -20,7 +20,7 @@ def select_all_text(event):
 
 def create_gui():
     window = tk.Tk()
-    window.title('DeepL Übersetzer')
+    window.title('DeepL Translator')
 
     input_label = tk.Label(window, text='Any language:')
     input_label.pack()
