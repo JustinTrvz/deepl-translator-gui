@@ -2,10 +2,21 @@
 - Translate any words from a language to the desired target language in a simple GUI.
 - Default language is 'DE' (German), but feel free to change the target language.
 
+### Download repository
+1. Open [cmd](https://learn.microsoft.com/de-de/windows-server/administration/windows-commands/cmd) (_Windows_) or your [terminal](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal) (_Linux_).
+2. Change into any directory where you want this repository to download to.
+   1. _Example:_ `cd ~/Downloads`
+2. Type `git clone https://github.com/JustinTrvz/deepl-translator-gui.git`.
+
 
 ## Requirements
+- Git
 - Python
 - DeepL API Key
+
+### Git
+- **Windows:** Download and install [Git](https://git-scm.com/download/win).
+- **Linux:** Execute `sudo apt-get install git` on command-line.
 
 ### Python
 - **Windows:** See this tutorial: [How to install Python on Windows](https://realpython.com/installing-python/#how-to-install-python-on-windows)
