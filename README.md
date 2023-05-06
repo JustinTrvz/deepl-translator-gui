@@ -7,6 +7,14 @@
 - DeepL API Key
 - Python
 
+## Usage
+![](images/translator-usage.png)
+- The DeepL Translator GUI is meant to be used while reading documents of a foreign language.
+- Paste or type the words in the top text field and afterwards click on `Translate`. 
+- You can right-click on the windows top bar and set it to `Always on top`.
+- The shortcut `Ctrl+A` select all the text from both text fields.
+- Only the textfield `Any language:` is modifyable.
+
 ## Setup
 1. It is recommended to use a [Python Venv](https://docs.python.org/3/library/venv.html).
    1. Change to this directory, if not already done.
