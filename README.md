@@ -22,8 +22,9 @@
 ## Usage
 ![](images/translator-usage.png)
 - The DeepL Translator GUI is meant to be used while reading documents of a foreign language.
+  - **Linux:** You can right-click on the windows top bar and set it to `Always on top`.
+  - **Windows:** Additional software like [Microsoft PowerToys](https://learn.microsoft.com/de-de/windows/powertoys/) is needed, which allows to use [always on top](https://learn.microsoft.com/de-de/windows/powertoys/always-on-top).
 - Paste or type the words in the top text field and afterwards click on `Translate`. 
-- You can right-click on the windows top bar and set it to `Always on top`.
 - The shortcut `Ctrl+A` select all the text from both text fields.
 - Only the textfield `Any language:` is modifyable.
 
