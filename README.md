@@ -59,4 +59,4 @@
       1. _Example: `TARGET_LANG_TXT = 'Polish'`_
 
 # Change source language
-- Same steps like `Change target language`, but with the variables `SOURCE_LANG` and `SOURCE_LANG_TXT`.
+- Same steps like describeb in section [Change target language](#Change target language), but with the variables `SOURCE_LANG` and `SOURCE_LANG_TXT`.
