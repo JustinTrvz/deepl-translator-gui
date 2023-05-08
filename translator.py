@@ -9,8 +9,11 @@ DEEPL_API_KEY = str(base64.b64decode(api_key), "utf-8")
 DEEPL_API_URL = 'https://api-free.deepl.com/v2/translate'
 
 # DeepL Translator config
-TARGET_LANGUAGE = 'DE'
-TARGET_LANGUAGE_TEXT = "German"
+SOURCE_LANG = 'EN'
+SOURCE_LANG_TXT = 'English'
+
+TARGET_LANG = 'DE'
+TARGET_LANG_TXT = "German"
 
 
 def select_all_text(event):
@@ -22,7 +25,7 @@ def create_gui():
     window = tk.Tk()
     window.title('DeepL Translator')
 
-    input_label = tk.Label(window, text='Any language:')
+    input_label = tk.Label(window, text= SOURCE_LANG_TXT + ':')
     input_label.pack()
 
     input_text = tk.Text(window, height=3, width=30)
@@ -33,7 +36,7 @@ def create_gui():
     translate_button = tk.Button(window, text='Translate', command=lambda: translate_text(input_text, output_text))
     translate_button.pack()
 
-    output_label = tk.Label(window, text=TARGET_LANGUAGE_TEXT + ':')
+    output_label = tk.Label(window, text=TARGET_LANG_TXT + ':')
     output_label.pack()
 
     output_text = tk.Text(window, height=3, width=30)
@@ -53,7 +56,8 @@ def translate_text(input_text, output_text):
 
     params = {
         'text': text,
-        'target_lang': TARGET_LANGUAGE
+        'source_lang': SOURCE_LANG,
+        'target_lang': TARGET_LANG,
     }
 
     response = requests.post(DEEPL_API_URL, headers=headers, data=params)

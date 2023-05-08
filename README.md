@@ -54,6 +54,9 @@
 1. Open `translator.py` with your favorite editor.
 2. In the section `# DeepL Translator config` you need to change the variable
    1. `TARGET_LANGUAGE` to any [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-      1. _Example: `TARGET_LANGUAGE = 'PL'`_
+      1. _Example: `TARGET_LANG = 'PL'`_
    2. `TARGET_LANGUAGE_TEXT` to the coherent [ISO language name](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-      1. _Example: `TARGET_LANGUAGE_TEXT = 'Polish'`_
+      1. _Example: `TARGET_LANG_TXT = 'Polish'`_
+
+# Change source language
+- Same steps like `Change target language`, but with the variables `SOURCE_LANG` and `SOURCE_LANG_TXT`.
